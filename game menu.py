@@ -63,7 +63,7 @@ btn3.grid(row=4, column=1)
 
 l1 = Label(text="Добро пожаловать!", width=50, fg="red")
 l1.grid(row=1, column=1, columnspan=1)
-l2 = Label(text="Разработчики: \n Роман Горин \n Демшин Станислав \nАртамонов Даниил", width=50, anchor=W)
+l2 = Label(text="Разработчики: \n Демшин Станислав \nАртамонов Даниил", width=50, anchor=W)
 l2.grid(row=5, column=1, columnspan=1)
 root.mainloop()
 
